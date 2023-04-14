@@ -1,0 +1,7 @@
+streamlit
+pathlib
+pdf2image
+easyocr
+numpy
+transformers
+pymongo
