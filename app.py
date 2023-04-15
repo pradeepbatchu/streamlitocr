@@ -4,7 +4,7 @@ import os
 from easyoc import easyocr
 from pathlib import Path
 
-UPLOAD_FOLDER = './upload/'
+UPLOAD_FOLDER = '/opt/upload/'
 
 # title
 st.title("OCR - Extract Text from PDF")

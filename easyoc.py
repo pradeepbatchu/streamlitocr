@@ -1,8 +1,8 @@
 from pdf2image import convert_from_path
 import easyocr
 import numpy as np
-from mongodb import insert
-from transformers import ner
+#from mongodb import insert
+#from transformers import ner
 # here we initialize reader object to use english laguage
 
 reader = easyocr.Reader(['en'])
@@ -18,7 +18,7 @@ def easyocr(pdf):
     for i in range(len(bounds)):
         text = text + bounds[i][1] + '\n'
     print(text)
-    ner(text=text)
-    insert('OCRTEXT', text)
+    #ner(text=text)
+    #insert('OCRTEXT', text)
     return text
 
