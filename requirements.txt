@@ -5,4 +5,4 @@ easyocr
 numpy
 transformers
 pymongo
-python-poppler
+#python-poppler
