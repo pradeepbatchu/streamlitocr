@@ -1,4 +1,4 @@
 # streamlitocr
 PDF to Text with easyocr
 
-![Screenshot](https://github.com/pradeepbatchu/speechtotext/blob/main/pdftotext.png)
+![Screenshot](https://github.com/pradeepbatchu/streamlitocr/blob/main/pdftotext.png)
