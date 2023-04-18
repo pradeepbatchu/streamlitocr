@@ -3,6 +3,3 @@ pathlib
 pdf2image
 easyocr
 numpy
-transformers
-pymongo
-#python-poppler
